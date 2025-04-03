@@ -28,5 +28,6 @@ public class TestSoup {
         System.out.println(sss.getPeelingWeight());
         Vegetable.setPeelingWeight(0.05);
         System.out.println(sss.getPeelingWeight());
+
     }
 }

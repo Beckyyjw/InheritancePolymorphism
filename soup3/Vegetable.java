@@ -1,6 +1,6 @@
 package soup3;
 
-public class Vegetable implements Quantifiable{
+public abstract class Vegetable implements Quantifiable{
     protected double poids;
     protected int calories;
     protected static double peelingWeight = 0.1;
@@ -13,8 +13,4 @@ public class Vegetable implements Quantifiable{
         Vegetable.peelingWeight = peelingWeight;
     }
 
-    @Override
-    public int getCalories(){
-        return calories;
-    }
 }
