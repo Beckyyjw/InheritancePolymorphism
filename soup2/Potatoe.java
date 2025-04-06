@@ -15,7 +15,7 @@ public class Potatoe extends Vegetable{
 
     @Override
     public String toString(){
-        return "Potate : [" + poids + " kg - " + yeux + " yeux]";
+        return "Patate : [" + poids + " kg - " + yeux + (yeux == 1 ? " oeil" : " yeux") + "]";
     }
 
     @Override

@@ -22,6 +22,6 @@ public class Potatoe extends Vegetable {
 
     @Override
     public String toString() {
-        return "Pomme de terre : [" + this.getCalories() + " calories - " + poids + " kg - " + yeux + " yeux]";
+        return "Patate : [" + this.getCalories() + " calories - " + poids + " kg - " + yeux + (yeux == 1 ? " oeil" : " yeux") + "]";
     }
 }
